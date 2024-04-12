@@ -6,6 +6,8 @@
 
 
 }
+
+
 .hero{
     width: 80%;
     margin: auto;
@@ -72,3 +74,77 @@ ul li a:hover::after{
 .right-column main{
     width: 100%;
 }
+.search-box{
+    width: 50%;
+   
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0 30px;
+}
+.search-box img {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+
+}
+.search-box input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    color: white;
+   
+    border: #ddd 0;
+    outline: none;
+
+    
+}
+
+.left-column h1{
+    font-size: 70px;
+    color: #ddd;
+}
+.left-column h3{
+    font-size: 30px;
+    color: #ddd;
+}
+
+.btn button{
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    color: antiquewhite;
+    background: transparent;
+
+}
+.btn .primary-btn{
+   background: linear-gradient(#c27a7a, #f14a60);
+   box-shadow: 0 2px 15px rgba(248,38,103,0.26 ); 
+   color: antiquewhite;
+}
+.btn{
+    margin-bottom: 50px;
+
+}
+
+.social-icon{
+    width: 200px;
+    text-align: center;
+    opacity: .4;
+    position: relative;
+ 
+ }
+ 
+ 
+ 
+ .social-icons :: after{
+     content: '';
+     width: 150px;
+     height: 1px;
+     background:wheat;
+     position: absolute;
+ 
+ }
