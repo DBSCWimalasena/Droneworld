@@ -1,11 +1,11 @@
-/* Updated CSS with hover effect */
+
 body {
     background-color: #0c1717; 
     color: #fbf8f8;
 }
 
 .title {
-    text-align: center; /* Center align the title */
+    text-align: center;
 }
 
 .drone-container {
@@ -15,7 +15,7 @@ body {
 }
 
 .drone {
-    flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 drones per row */
+    flex: 0 0 calc(33.33% - 20px);
     margin: 10px;
     text-align: center;
 }
@@ -27,10 +27,10 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
-    transition: transform 0.3s ease; /* Add transition effect */
+    transition: transform 0.3s ease;
 }
 
-/* Add hover effect */
+
 .drone img:hover {
-    transform: scale(1.1); /* Scale up the image */
+    transform: scale(1.1);
 }
