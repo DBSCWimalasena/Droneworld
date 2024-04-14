@@ -1,0 +1,47 @@
+.description {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.description h2 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.description .point {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+.image-container {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
