@@ -1,3 +1,12 @@
+.social-icon {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
+}
+.social-icon img {
+    margin-right: 10px; /* Adjust as needed */
+}
+
 *{
     margin: 0;
     padding:0;
